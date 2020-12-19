@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "segoe ui";
+}
+body {
+  background-color: #f3f4f8;
+}
+.side-bar {
+  width: 80px;
+  height: 100vh;
+  background-color: #283043;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+.logo {
+  margin-top: 10px;
+}
+.side-bar p {
+  height: 1px;
+  width: 100%;
+  background-color: #585858;
+  margin-top: 6px;
+}
+.side-bar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+.side-bar-item h6 {
+  color: #fff;
+  font-weight: 300;
+}
+.side-bar-item i {
+  color: #fff;
+  font-size: 40px;
+}
+.top-bar {
+  margin-left: 80px;
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  background-color: #fff;
+}
+.top-bar-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-left: 10px;
+}
+#search-1 {
+  border: none;
+  padding: 20px;
+}
+#search-2 {
+  border: none;
+  padding: 20px;
+  width: 30vw;
+}
+.top-bar-end-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-left: auto;
+}
+.top-bar-end-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+.top-bar-end-item h5 {
+  font-weight: 400;
+  color: #585858;
+}
+.top-bar-end-item i {
+  margin-left: 10px;
+  color: #585858;
+}
+
+.tab-bar {
+  height: 30px;
+  width: 100%;
+  margin-left: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.tab-bar h5 {
+  font-weight: 400;
+  color: #585858;
+  margin-left: 40px;
+}
+#tab-bar-bold-item {
+  font-weight: 500;
+  color: #161616;
+}
+p {
+  height: 1px;
+  width: 100%;
+  background-color: #c5c5c5;
+  margin-top: 6px;
+}
+.guides {
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 90px;
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px #dfdfdf solid;
+  border-radius: 2px;
+}
+.guides h5 {
+  font-weight: 400;
+  color: #585858;
+  margin-left: 10px;
+}
+.guides h6 {
+  font-weight: 400;
+  color: #585858;
+  margin-left: 10px;
+}
+.bottom-content {
+  display: flex;
+}
+.admin-guide {
+  height: 400px;
+  width: 75%;
+  background-color: #ffffff;
+  margin-left: 15px;
+  margin-top: 20px;
+  border: 1px #dfdfdf solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 2px;
+}
+.admin-guide span h4 {
+  font-weight: 400;
+  color: #161616;
+  margin-top: 3px;
+  margin-left: 30px;
+  font-weight: 400;
+}
+.admin-guide h6 {
+  margin-left: 30px;
+  font-weight: 400;
+  color: #585858;
+}
+
+.admin-guide-box-row {
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 2px;
+}
+.add-new-button {
+  height: 90px;
+  width: 350px;
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px rgb(0, 162, 255) dashed;
+  border-radius: 2px;
+}
+.add-new-button h4 {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(0, 102, 255);
+}
+.admin-guide-item-heading {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.admin-guide-item-heading h3 {
+  color: #3d3d3d;
+  font-weight: 400;
+}
+.admin-guide-item-heading i {
+  color: #585858;
+  font-size: 12px;
+}
+.admin-guide-items h1 {
+  font-weight: 400;
+  color: #585858;
+  font-size: 13px;
+  margin-left: 10px;
+}
+.admin-guide-items {
+  height: 90px;
+  width: 350px;
+  border: 1px #dfdfdf solid;
+  border-radius: 2px;
+}
